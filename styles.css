@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header nav a:not(:first-child){
+    margin-left: 1.5rem;
+}
+
+main{
+    background-color: rgba(255, 255, 0, 0.2);
+    width: 100%;
+    font-display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tela1{
+    height: 5rem;
+    width: 10rem;
+    background-color: orange;
+    border-radius: 8px;
+    box-shadow: 0 0 4px  rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section #container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+main section .grupo{
+    display: flex;
+    flex-direction: column;
+}
+
+main section .grupo div{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem;
+}
+
+
+main section h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+} 
+
+main section h2{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+main section button{
+    background-color: green;
+    padding: 5px 10px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
+
+main section button:active{
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+}
+
+main #questao6 button {
+    margin-bottom: 2rem;
+}
+#vogal{
+    width: 50px;
+}
+
+input{
+    border: 2px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    height: 1.5rem;
+    width: 8rem;
+    margin: .5rem 0;
+    outline-color: green;
+}

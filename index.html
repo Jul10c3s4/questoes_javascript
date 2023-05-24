@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>questões de Javascript</h1>
+        <nav>
+            <a href="#questão 1">
+                <p>questão 1</p>
+            </a>
+            <a href="#questão 2">
+                <p>questão 2</p>
+            </a>
+            <a href="#questão 3">
+                <p>questão 3</p>
+            </a>
+            <a href="#questão 4">
+                <p>questão 4</p>
+            </a>
+            <a href="#questão 5">
+                <p>questão 5</p>
+            </a>
+            <a href="#questao6">
+                <p>questão 6</p>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section id="questão 1">
+            <h1 class="title">questão 1</h1>
+            <h2>Maior menor valor</h2>
+            <div id="tela1">
+                <p id="maior">maior: </p>
+                <p id="menor">menor: </p>
+            </div>
+            <div id="container">
+                <div class="grupo">
+                    <div><label for="input-questao1">Digite o 1° numero</label> <input type="number"
+                            class="input-questao1"></div>
+                    <div><label for="input-questao1">Digite o 2° numero</label> <input type="number"
+                            class="input-questao1"></div>
+                </div>
+                <div class="grupo">
+                    <div><label for="input-questao1">Digite o 3° numero</label> <input type="number"
+                            class="input-questao1"></div>
+                </div>
+                <div class="grupo">
+                    <div><label for="input-questao1">Digite o 4° numero</label> <input type="number"
+                            class="input-questao1"></div>
+                    <div><label for="input-questao1">Digite o 5° numero</label> <input type="number"
+                            class="input-questao1"></div>
+                </div>
+            </div>
+            <button class="buttons" onclick="maiorMenor()">Comparar</button>
+        </section>
+        <section id="questão 2">
+            <h1 class="title">questão 2</h1>
+            <h2>Identificador de vogal</h2>
+            <label for="vogal">Digite uma letra qualquer: </label>
+            <input type="text" id="vogal">
+            <p id="respVogal"> </p>
+            <button class="buttons" onclick="identificadorVogal()">Verificar</button>
+        </section>
+        <section id="questão 3">
+            <h1 class="title">questão 3</h1>
+            <h2>Limites</h2>
+            <label for="vogal">Digite o limite inferior do intervalo: </label>
+            <input type="text" id="inferior">
+            <label for="vogal">Digite o limite superior do intervalo: </label>
+            <input type="text" id="superior">
+            <p id="interv"></p>
+            <p id="pares"></p>
+            <p id="soma"></p>
+            <button class="buttons" onclick="exibirInterv()">Exibir</button>
+        </section>
+        <section id="questão 4">
+            <h1 class="title">questão 4</h1>
+            <h2>Ordenar</h2>
+            <label for="">Digite o 1° numero</label>
+            <input type="number" class="input-questao2">
+            <label>Digite o 2° numero</label>
+            <input type="number" class="input-questao2">
+            <label >Digite o 3° numero</label>
+            <input type="number" class="input-questao2">
+            <p id="ordenados"></p>
+            <button class="buttons" onclick="ordenar()">Ordenar</button>
+        </section>
+        <section id="questão 5">
+            <h1 class="title">questão 5</h1>
+            <h2>Número positivo ou negativo</h2>
+            <label for="numeroQuest5">Digite um número qualquer: </label>
+            <input type="number" id="numeroQuest5">
+            <p id="numposiNeg"> </p>
+            <button class="buttons" onclick="positivoNegativo()">Verificar</button>
+        </section>
+        <section id="questao6">
+            <h1 class="title">questão 6</h1>
+            <h2>Número par ou impar</h2>
+            <label for="numeroQuest6">Digite um número qualquer: </label>
+            <input type="number" id="numeroQuest6">
+            <p id="pQuest6"> </p>
+            <button class="buttons" onclick="parImpar()">Verificar</button>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
